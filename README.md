@@ -47,7 +47,7 @@ Il permet de présenter son **portfolio**, ses **compétences**, ses **services*
 ## 💻 **Installation et Démarrage**
 1. **Clonez ce dépôt** :
    ```bash
-   git clone https://github.com/SARA370/Reactjs-Cv-Projetc-CEF.git && cd reactjs-project
+   git clone https://github.com/SARA370/Reactjs-Cv-Projetc-CEF.git && cd Reactjs-Cv-Projetc-CEF
    ```
 2. **Installez les dépendances** :
    ```bash
