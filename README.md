@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+Merci pour la précision ! Je vais adapter le contenu du fichier `README.md` pour refléter le nom de votre projet, **reactjs-project**. Voici la version mise à jour du fichier `README.md` :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+```markdown
+# ReactJS Project - CV en Ligne
 
-In the project directory, you can run:
+Ce projet est un site web personnel développé avec **React.js** pour **John Doe**, un développeur web en formation. Le site présente son portfolio, ses compétences, ses services, et permet aux visiteurs de le contacter via un formulaire.
 
-### `npm start`
+## Objectifs du Projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Créer un site web personnel pour présenter le portfolio et les compétences de John Doe.
+- Utiliser **React.js** pour le développement front-end.
+- Intégrer **Bootstrap** pour le design et le responsive.
+- Afficher les données du profil GitHub via l'API GitHub.
+- Héberger le site sur une plateforme comme **CodeSandbox** ou **Netlify**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Fonctionnalités
 
-### `npm test`
+- **Accueil** : Présentation de John Doe avec une image de fond et un bouton "En savoir plus".
+- **À propos** : Section avec une photo, une description et des compétences affichées sous forme de barres de progression.
+- **Services** : Présentation des offres de services (UX Design, Développement Web, Référencement).
+- **Réalisations** : Portfolio avec au moins 3 projets présentés sous forme de cartes.
+- **Blog** : Section avec 6 articles présentés sous forme de cartes.
+- **Contact** : Formulaire de contact avec validation et carte Google Maps.
+- **Mentions Légales** : Informations sur l'éditeur, l'hébergeur et les crédits.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prérequis
 
-### `npm run build`
+- **Node.js** (version 16 ou supérieure)
+- **npm** (gestionnaire de paquets Node.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/reactjs-project.git
+   ```
+2. Accédez au dossier du projet :
+   ```bash
+   cd reactjs-project
+   ```
+3. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+4. Démarrez le serveur de développement :
+   ```bash
+   npm start
+   ```
+   Le site sera accessible à l'adresse [http://localhost:3001](http://localhost:3001).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Scripts Disponibles
 
-### `npm run eject`
+- **`npm start`** : Démarre le serveur de développement.
+- **`npm run build`** : Génère une version de production du site dans le dossier `build`.
+- **`npm test`** : Lance les tests (si configurés).
+- **`npm run eject`** : Permet de personnaliser la configuration de Create React App (opération irréversible).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Hébergement
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Le site peut être hébergé sur une plateforme comme **Netlify**, **Vercel**, ou **CodeSandbox**. Voici les étapes pour déployer sur Netlify :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Créez un compte sur [Netlify](https://www.netlify.com/).
+2. Glissez-déposez le dossier `build` sur la page de déploiement de Netlify.
+3. Netlify générera une URL publique pour votre site.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Référencement (SEO)
 
-## Learn More
+Le site est optimisé pour le référencement naturel (SEO) avec les techniques suivantes :
+- Balises `<meta>` pour la description et les mots-clés.
+- Utilisation de balises sémantiques (`<header>`, `<section>`, `<footer>`, etc.).
+- Validation du code avec les outils W3C.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Utilisées
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React.js** : Bibliothèque JavaScript pour l'interface utilisateur.
+- **Bootstrap** : Framework CSS pour le design responsive.
+- **React Router** : Gestion de la navigation entre les pages.
+- **API GitHub** : Affichage des données du profil GitHub.
+- **Vanilla JS** : Pour les fonctionnalités interactives (comme le bouton "Retour en haut").
 
-### Code Splitting
+## Structure du Projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Voici la structure du projet :
 
-### Analyzing the Bundle Size
+```
+reactjs-project/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── About.js
+│   │   ├── Services.js
+│   │   ├── Realisations.js
+│   │   ├── Blog.js
+│   │   ├── Contact.js
+│   │   └── MentionsLegales.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Auteur
 
-### Making a Progressive Web App
+- **John Doe** : Développeur web en formation.
+- Contact : john.doe@gmail.com | [GitHub](https://github.com/github-john-doe)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Licence
 
-### Advanced Configuration
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Remerciements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Les images libres de droit sont issues de [Pixabay](https://pixabay.com/).
+- Ce projet a été réalisé dans le cadre de la formation au **CEF** (Centre Européen de Formation).
+```
